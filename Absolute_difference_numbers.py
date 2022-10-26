@@ -1,0 +1,10 @@
+n,x=map(int,input().split())
+a=str(n)
+b=a[:x]
+c=a[::-1]
+d=c[:x]
+e=d[::-1]
+if(int(b)>int(e)):
+    print(int(b)-int(e))
+else:
+    print(int(e)-int(b))
