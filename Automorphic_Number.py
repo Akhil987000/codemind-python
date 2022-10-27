@@ -1,12 +1,8 @@
 n=int(input())
+y=len(str(n))
 a=n*n
-b=len(str(n))
-k=list(str(a))
-h=len(k)-b
-r=k[h:]
-r="".join(r)
-r=int(r)
-if(r==n):
+z=a%pow(10,y)
+if(n==z):
     print("Automorphic Number")
 else:
     print("Not an Automorphic Number")
