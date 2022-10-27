@@ -1,9 +1,9 @@
-n,m=map(int,input().split())
-if(n>m):
-    s=m
+a,b=map(int,input().split())
+if(a>b):
+    min1=b
 else:
-    s=n
-for i in range(1,s+1):
-    if(n%i==0 and m%i==0):
+    min1=a
+for i in range(1,min1+1):    
+    if(a%i==0 and b%i==0):
         hcf=i
-print(hcf)        
+print(hcf)
