@@ -1,9 +1,10 @@
 n=int(input())
-a=list(str(n))
-b=0
-for i in range(len(a)):
-    b+=int(a[i])**(i+1)
-if(b==n):
+s=list(map(int,str(n)))
+c=0
+for i in range(0,len(s)):
+    a=((s[i])**(i+1))
+    c=c+a
+if(c==n):
     print(True)
 else:
     print(False)
