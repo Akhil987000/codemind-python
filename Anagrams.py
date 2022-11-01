@@ -1,0 +1,12 @@
+x=input()
+y=input()
+x=x.lower()
+y=y.lower()
+a=list(x)
+b=list(y)
+c=sorted(a)
+d=sorted(b)
+if(c==d):
+    print(True)
+else:
+    print(False)
