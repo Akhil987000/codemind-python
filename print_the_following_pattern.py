@@ -1,5 +1,7 @@
-n=int(input())
-for i in range(n):
-    for j in range(i+1):
-        print(j+1,end='')
-    print()    
+a=int(input())
+for i in range(0,a):
+    c=1
+    for j in range(i,a):
+       print(c,end="")
+       c+=1
+    print()
