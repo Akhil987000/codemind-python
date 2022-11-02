@@ -4,6 +4,10 @@ s=s.split()
 j=''.join(s)
 a=list(j)
 k=list(set(a))
-m=sorted(k)
-z=''.join(m)
+c=[]
+for i in k:
+    if(a.count(i)==1):
+        c.append(i)
+        m=sorted(c)
+        z=''.join(m)
 print(z)
