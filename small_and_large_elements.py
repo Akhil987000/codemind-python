@@ -1,0 +1,9 @@
+a=input()
+s=a.split()
+z=s[0]
+y=s[-1]
+k=list(z)
+l=list(y)
+m=sorted(k)
+n=sorted(l)
+print(min(m),max(n))
